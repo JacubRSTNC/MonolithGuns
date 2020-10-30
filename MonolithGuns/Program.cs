@@ -6,7 +6,8 @@ using System.Linq;
 /*
  * Title: Monolith Item Crafting Calculator
  * Author: parkerx
- * Date: Released on 6-9-2020
+ * Contributor: Jacub
+ * Last-Update: 30-10-2020
  */
 
 namespace MonolithItems
@@ -158,16 +159,6 @@ namespace MonolithItems
                 IronBar = 11,
                 SteelBar = 5
             };
-            Item LR = new Item
-            {
-                Name = "LR-300",
-                WeaponPart = "Rifle",
-                Crafting = 40,
-                CopperBar = 11,
-                IronBar = 11,
-                SteelBar = 5,
-                SilverBar = 4
-            };
             Item DP = new Item
             {
                 Name = "DP-28",
@@ -178,6 +169,16 @@ namespace MonolithItems
                 SteelBar = 4,
                 SilverBar = 5
             };
+            Item LR = new Item
+            {
+                Name = "LR-300",
+                WeaponPart = "Rifle",
+                Crafting = 40,
+                CopperBar = 11,
+                IronBar = 11,
+                SteelBar = 5,
+                SilverBar = 4
+            };
             Item Shorty = new Item
             {
                 Name = "Serbu Shorty",
@@ -187,23 +188,13 @@ namespace MonolithItems
                 IronBar = 8,
                 SteelBar = 10
             };
-            Item Galil = new Item
-            {
-                Name = "IMI Galil",
-                WeaponPart = "Rifle",
-                Crafting = 41,
-                IronBar = 14,
-                SteelBar = 9,
-                SilverBar = 8,
-                TitaniumBar = 1
-            };
             Item G3A3 = new Item
             {
                 Name = "G3A3",
                 WeaponPart = "Rifle",
                 Crafting = 42,
-                CopperBar = 12,
                 SteelBar = 12,
+                IronBar = 12,
                 SilverBar = 9
             };
             Item Honey = new Item
@@ -281,6 +272,16 @@ namespace MonolithItems
                 GoldBar = 11,
                 TitaniumBar = 1
             };
+            Item Galil = new Item
+            {
+                Name = "IMI Galil",
+                WeaponPart = "Rifle",
+                Crafting = 70,
+                IronBar = 14,
+                SteelBar = 9,
+                SilverBar = 8,
+                TitaniumBar = 1
+            };
             Item ACR = new Item
             {
                 Name = "ACR-E",
@@ -296,6 +297,7 @@ namespace MonolithItems
             {
                 Name = "KSG-12 Shotgun",
                 WeaponPart = "Shotgun",
+                Crafting = 80,
                 IronBar = 17,
                 SteelBar = 13,
                 SilverBar = 7,
@@ -306,6 +308,7 @@ namespace MonolithItems
             {
                 Name = "AUG A3",
                 WeaponPart = "Rifle",
+                Crafting = 88,
                 CopperBar = 12,
                 IronBar = 11,
                 SteelBar = 14,
@@ -317,6 +320,7 @@ namespace MonolithItems
             {
                 Name = "XM8",
                 WeaponPart = "Rifle",
+                Crafting = 92,
                 CopperBar = 6,
                 IronBar = 6,
                 SteelBar = 14,
@@ -984,6 +988,7 @@ namespace MonolithItems
                     new Item
                     {
                         Name = "Machete",
+                        Crafting = 25,
                         CopperBar = 8,
                         IronBar = 5
                     },
